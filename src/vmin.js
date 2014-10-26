@@ -7,10 +7,13 @@ module.exports = function (stylecow) {
 			explorer: 10.0
 		},
 		Declaration: function (declaration) {
-			if (declaration.value.indexOf('vmin') !== -1) {
+			if (declaration.getValue().join(', ').indexOf('vmin') !== -1) {
 				var clone = declaration.cloneBefore();
 
-				clone.search('Keyword', /([0-9\.]+)vmin/).forEach(function (keyword) {
+				clone.search({
+					type: 'Keyword',
+					name: /([0-9\.]+)vmin/
+				}).forEach(function (keyword) {
 					keyword.name = keyword.name.slice(0, -2);
 				});
 				clone.vendor = 'ms';

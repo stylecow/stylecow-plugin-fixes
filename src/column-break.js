@@ -1,7 +1,6 @@
 module.exports = function (stylecow) {
 	
 	//Adds support of break-before, break-after, break-inside in webkit using the non-standard -webkit-column-break-
-
 	stylecow.addTask({
 		disable: {
 			chrome: 21.0,
@@ -10,7 +9,10 @@ module.exports = function (stylecow) {
 			ios: 7.0
 		},
 		Declaration: function (declaration) {
-			if (declaration.is(null, ['break-before', 'break-after', 'break-inside'], 'column')) {
+			if (declaration.is({
+				name: ['break-before', 'break-after', 'break-inside'],
+				value: 'column'
+			})) {
 				declaration.insertBefore('-webkit-column-' + declaration.name + ':always');
 			}
 		}

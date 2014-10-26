@@ -8,7 +8,7 @@ module.exports = function (stylecow) {
 		},
 		Declaration: {
 			opacity: function (declaration) {
-				var rule = declaration.ancestor('Rule');
+				var rule = declaration.ancestor({type: 'Rule'});
 
 				if (rule) {
 					rule.addOldMsFilter('alpha(opacity=' + (parseFloat(declaration.value, 10) * 100) + ')');

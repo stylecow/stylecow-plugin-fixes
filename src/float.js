@@ -8,7 +8,9 @@ module.exports = function (stylecow) {
 		},
 		Declaration: {
 			float: function (declaration) {
-				if (declaration.is(null, null, ['left', 'right'])) {
+				if (declaration.is({
+					value: ['left', 'right']
+				})) {
 					declaration.insertAfter('_display: inline');
 				}
 			}

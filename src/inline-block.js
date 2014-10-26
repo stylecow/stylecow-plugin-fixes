@@ -8,7 +8,9 @@ module.exports = function (stylecow) {
 		},
 		Declaration: {
 			display: function (declaration) {
-				if (declaration.is(null, null, 'inline-block')) {
+				if (declaration.is({
+					value: 'inline-block'
+				})) {
 					declaration.insertAfter('*zoom: 1').insertAfter('*display: inline');
 				}
 			}
