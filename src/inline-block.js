@@ -11,7 +11,8 @@ module.exports = function (stylecow) {
 				if (declaration.is({
 					value: 'inline-block'
 				})) {
-					declaration.insertAfter('*zoom: 1').insertAfter('*display: inline');
+					declaration.insertAfter(new stylecow.Declaration('*zoom')).setValue('1');
+					declaration.insertAfter(new stylecow.Declaration('*display')).setValue('inline');
 				}
 			}
 		}
