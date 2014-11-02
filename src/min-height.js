@@ -8,7 +8,7 @@ module.exports = function (stylecow) {
 		},
 		Declaration: {
 			'min-height': function (declaration) {
-				declaration.insertBefore('_height:' + declaration.value);
+				declaration.before('_height:' + declaration.value);
 			}
 		}
 	});

@@ -7,7 +7,7 @@ module.exports = function (stylecow) {
 			explorer: 10.0
 		},
 		Declaration: function (declaration) {
-			if (declaration.getValue().join(', ').indexOf('vmin') !== -1) {
+			if (declaration.getContent().join(', ').indexOf('vmin') !== -1) {
 				var clone = declaration.cloneBefore();
 
 				clone.search({

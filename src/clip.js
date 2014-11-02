@@ -8,10 +8,10 @@ module.exports = function (stylecow) {
 		},
 		"Function": {
 			rect: function (fn) {
-				var declaration = fn.ancestor({type: 'Declaration', name: 'clip'});
+				var declaration = fn.parent({type: 'Declaration', name: 'clip'});
 
 				if (declaration) {
-					declaration.insertAfter('*clip: rect(' + fn.join(' ') + ')');
+					declaration.after('*clip: rect(' + fn.join(' ') + ')');
 				}
 			}
 		}

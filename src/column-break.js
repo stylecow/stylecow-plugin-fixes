@@ -13,7 +13,7 @@ module.exports = function (stylecow) {
 				name: ['break-before', 'break-after', 'break-inside'],
 				value: 'column'
 			})) {
-				declaration.insertBefore('-webkit-column-' + declaration.name + ':always');
+				declaration.before('-webkit-column-' + declaration.name + ':always');
 			}
 		}
 	});

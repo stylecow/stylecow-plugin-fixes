@@ -11,7 +11,7 @@ module.exports = function (stylecow) {
 				if (declaration.is({
 					value: ['left', 'right']
 				})) {
-					declaration.insertAfter('_display: inline');
+					declaration.after('_display: inline');
 				}
 			}
 		}
