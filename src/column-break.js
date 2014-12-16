@@ -10,10 +10,13 @@ module.exports = function (stylecow) {
 		},
 		Declaration: function (declaration) {
 			if (declaration.is({
-				name: ['break-before', 'break-after', 'break-inside'],
-				value: 'column'
+				string: [
+					'break-before: column;',
+					'break-after: column;',
+					'break-inside: column;'
+				]
 			})) {
-				declaration.before('-webkit-column-' + declaration.name + ':always');
+				declaration.before(stylecow.Declaration.createFromString('-webkit-column-' + declaration.name + ':always'));
 			}
 		}
 	});

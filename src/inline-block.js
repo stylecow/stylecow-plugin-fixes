@@ -9,10 +9,10 @@ module.exports = function (stylecow) {
 		Declaration: {
 			display: function (declaration) {
 				if (declaration.is({
-					value: 'inline-block'
+					string: 'display: inline-block;'
 				})) {
-					declaration.after(new stylecow.Declaration('*zoom')).setContent('1');
-					declaration.after(new stylecow.Declaration('*display')).setContent('inline');
+					declaration.after(stylecow.Declaration.createFromString('*zoom: 1'));
+					declaration.after(stylecow.Declaration.createFromString('*display: inline'));
 				}
 			}
 		}

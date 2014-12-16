@@ -5,7 +5,9 @@ module.exports = function (stylecow) {
 	stylecow.addTask({
 		"Function": {
 			calc: function (fn) {
-				fn[0].replaceWith(fn[0].toString().replace(/([\w\%])\s*([\+\-])\s*/g, '$1 $2 '));
+				var fixed = fn[0].toString().replace(/([\w\%])\s*([\+\-])\s*/g, '$1 $2 ');
+
+				fn.empty().push(stylecow.Value.createFromString(fixed));
 			}
 		}
 	});

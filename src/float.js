@@ -9,9 +9,12 @@ module.exports = function (stylecow) {
 		Declaration: {
 			float: function (declaration) {
 				if (declaration.is({
-					value: ['left', 'right']
+					string: [
+						'float: left;',
+						'float: right;'
+					]
 				})) {
-					declaration.after('_display: inline');
+					declaration.after(stylecow.Declaration.createFromString('_display: inline'));
 				}
 			}
 		}

@@ -8,10 +8,10 @@ module.exports = function (stylecow) {
 		},
 		Declaration: {
 			opacity: function (declaration) {
-				var rule = declaration.parent({type: 'Rule'});
+				var block = declaration.parent({type: 'Block'});
 
-				if (rule) {
-					rule.addOldMsFilter('alpha(opacity=' + (parseFloat(declaration.value, 10) * 100) + ')');
+				if (block) {
+					stylecow.utils.addMsFilter(block, 'alpha(opacity=' + (parseFloat(declaration[0], 10) * 100) + ')');
 				}
 			}
 		}

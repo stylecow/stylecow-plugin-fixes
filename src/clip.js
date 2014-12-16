@@ -11,7 +11,7 @@ module.exports = function (stylecow) {
 				var declaration = fn.parent({type: 'Declaration', name: 'clip'});
 
 				if (declaration) {
-					declaration.after('*clip: rect(' + fn.join(' ') + ')');
+					declaration.after(stylecow.Declaration.createFromString('*clip: rect(' + fn.join(' ') + ')'));
 				}
 			}
 		}

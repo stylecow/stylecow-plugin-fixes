@@ -7,7 +7,7 @@ module.exports = function (stylecow) {
 			explorer: 10.0
 		},
 		Declaration: function (declaration) {
-			if (declaration.getContent().join(', ').indexOf('vmin') !== -1) {
+			if (declaration.toString().indexOf('vmin') !== -1) {
 				var clone = declaration.cloneBefore();
 
 				clone.search({
@@ -16,6 +16,7 @@ module.exports = function (stylecow) {
 				}).forEach(function (keyword) {
 					keyword.name = keyword.name.slice(0, -2);
 				});
+
 				clone.vendor = 'ms';
 			}
 		}
