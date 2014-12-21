@@ -1,20 +1,17 @@
 module.exports = function (stylecow) {
 	
 	//Adds support in explorer < 8
-
 	stylecow.addTask({
-		disable: {
+		forBrowsersLowerThan: {
 			explorer: 8.0
 		},
-		Declaration: {
-			display: function (declaration) {
-				if (declaration.is({
-					string: 'display: inline-block;'
-				})) {
-					declaration.after(stylecow.Declaration.createFromString('*zoom: 1'));
-					declaration.after(stylecow.Declaration.createFromString('*display: inline'));
-				}
-			}
+		filter: {
+			type: 'Declaration',
+			string: 'display: inline-block;'
+		},
+		fn: function (declaration) {
+			declaration.after(stylecow.Declaration.createFromString('*zoom: 1'));
+			declaration.after(stylecow.Declaration.createFromString('*display: inline'));
 		}
 	});
 };

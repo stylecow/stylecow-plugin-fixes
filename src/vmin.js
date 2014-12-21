@@ -1,12 +1,14 @@
 module.exports = function (stylecow) {
 	
 	//add ie9 fallback that support vm instead vmin
-
 	stylecow.addTask({
-		disable: {
+		forBrowsersLowerThan: {
 			explorer: 10.0
 		},
-		Declaration: function (declaration) {
+		filter: {
+			type: 'Declaration'
+		},
+		fn: function (declaration) {
 			if (declaration.toString().indexOf('vmin') !== -1) {
 				var clone = declaration.cloneBefore();
 
