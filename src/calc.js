@@ -7,10 +7,10 @@ module.exports = function (stylecow) {
 			name: 'calc'
 		},
 		fn: function (fn) {
-			var value = fn[0];
+			var value = fn.shift();
 			var string = value.toString().replace(/([\w\%])\s*([\+\-])\s*/g, '$1 $2 ');
 
-			value.replaceWith(stylecow.Value.createFromString(string));
+			fn.unshift(stylecow.Value.createFromString(string));
 		}
 	});
 };

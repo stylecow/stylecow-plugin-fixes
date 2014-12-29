@@ -10,7 +10,10 @@ module.exports = function (stylecow) {
 			name: 'rect'
 		},
 		fn: function (fn) {
-			var declaration = fn.parent({type: 'Declaration', name: 'clip'});
+			var declaration = fn.parent({
+				type: 'Declaration',
+				name: 'clip'
+			});
 
 			if (declaration) {
 				declaration.after(stylecow.Declaration.createFromString('*clip: rect(' + fn.join(' ') + ')'));
