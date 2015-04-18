@@ -1,0 +1,162 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "float",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "left",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "_display",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "inline",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "float",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "right",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "_display",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "inline",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "float",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "none",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

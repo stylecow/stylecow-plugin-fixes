@@ -10,7 +10,7 @@ module.exports = function (stylecow) {
 			name: 'opacity'
 		},
 		fn: function (declaration) {
-			var block = declaration.parent({type: 'Block'});
+			var block = declaration.getParent('Block');
 
 			if (block) {
 				stylecow.utils.addMsFilter(block, 'alpha(opacity=' + (parseFloat(declaration[0], 10) * 100) + ')');

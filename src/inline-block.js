@@ -10,8 +10,8 @@ module.exports = function (stylecow) {
 			string: 'display: inline-block;'
 		},
 		fn: function (declaration) {
-			declaration.after(stylecow.Declaration.createFromString('*zoom: 1'));
-			declaration.after(stylecow.Declaration.createFromString('*display: inline'));
+			declaration.after(stylecow.parse('*zoom: 1', 'Declaration'));
+			declaration.after(stylecow.parse('*display: inline', 'Declaration'));
 		}
 	});
 };

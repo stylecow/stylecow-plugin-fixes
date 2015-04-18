@@ -17,7 +17,7 @@ module.exports = function (stylecow) {
 			]
 		},
 		fn: function (declaration) {
-			declaration.before(stylecow.Declaration.createFromString('-webkit-column-' + declaration.name + ':always'));
+			declaration.before(stylecow.parse('-webkit-column-' + declaration.name + ': always', 'Declaration'));
 		}
 	});
 };

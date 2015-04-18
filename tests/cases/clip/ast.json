@@ -1,0 +1,124 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "clip",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Function",
+                      "name": "rect",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": 1
+                            }
+                          ]
+                        },
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": 2
+                            }
+                          ]
+                        },
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": 3
+                            }
+                          ]
+                        },
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": 4
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "*clip",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Function",
+                      "name": "rect",
+                      "vendor": null,
+                      "children": [
+                        {
+                          "class": "Value",
+                          "children": [
+                            {
+                              "class": "Number",
+                              "name": 1
+                            },
+                            {
+                              "class": "Number",
+                              "name": 2
+                            },
+                            {
+                              "class": "Number",
+                              "name": 3
+                            },
+                            {
+                              "class": "Number",
+                              "name": 4
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

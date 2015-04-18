@@ -10,7 +10,9 @@ module.exports = function (stylecow) {
 			name: 'min-height'
 		},
 		fn: function (declaration) {
-			declaration.cloneBefore().name = '_height';
+			declaration
+				.cloneBefore()
+				.setName('_height');
 		}
 	});
 };

@@ -1,0 +1,12 @@
+div:after {
+	content: "";
+}
+div:before {
+	content: "";
+}
+div:first-line {
+	font-weight: bold;
+}
+div:first-letter {
+	font-weight: bold;
+}

@@ -1,0 +1,12 @@
+div {
+	opacity: 0.5;
+	-ms-filter: "alpha(opacity=50)";
+}
+div {
+	opacity: 0;
+	-ms-filter: "alpha(opacity=0)";
+}
+div {
+	opacity: 1;
+	-ms-filter: "alpha(opacity=100)";
+}

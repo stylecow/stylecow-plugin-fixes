@@ -1,0 +1,8 @@
+div {
+	-webkit-column-break-before: always;
+	break-before: column;
+	-webkit-column-break-after: always;
+	break-after: column;
+	-webkit-column-break-inside: always;
+	break-inside: column;
+}

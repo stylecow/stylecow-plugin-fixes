@@ -157,10 +157,10 @@ module.exports = function (stylecow) {
 			name: 'initial'
 		},
 		fn: function (keyword) {
-			var declaration = keyword.parent('Declaration');
+			var declaration = keyword.getParent('Declaration');
 
 			if (declaration && initials[declaration.name]) {
-				keyword.name = initials[declaration.name];
+				declaration.replaceWith(stylecow.parse(declaration.name + ':' + initials[declaration.name], 'Declaration'));
 			}
 		}
 	});

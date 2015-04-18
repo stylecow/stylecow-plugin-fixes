@@ -1,0 +1,131 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "column-break-before",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "always",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "break-before",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "column",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "column-break-after",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "always",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "break-after",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "column",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "column-break-inside",
+              "vendor": "webkit",
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "always",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "break-inside",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Keyword",
+                      "name": "column",
+                      "vendor": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

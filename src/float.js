@@ -13,7 +13,7 @@ module.exports = function (stylecow) {
 			]
 		},
 		fn: function (declaration) {
-			declaration.after(stylecow.Declaration.createFromString('_display: inline'));
+			declaration.after(stylecow.parse('_display: inline', 'Declaration'));
 		}
 	});
 };

@@ -1,5 +1,4 @@
 module.exports = function (stylecow) {
-	require('./src/calc')(stylecow);
 	require('./src/clip')(stylecow);
 	require('./src/column-break')(stylecow);
 	require('./src/float')(stylecow);

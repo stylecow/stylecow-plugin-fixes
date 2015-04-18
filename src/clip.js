@@ -6,17 +6,26 @@ module.exports = function (stylecow) {
 			explorer: 8.0
 		},
 		filter: {
-			type: 'Function',
-			name: 'rect'
+			type: 'Declaration',
+			name: 'clip'
 		},
-		fn: function (fn) {
-			var declaration = fn.parent({
-				type: 'Declaration',
-				name: 'clip'
-			});
-
-			if (declaration) {
-				declaration.after(stylecow.Declaration.createFromString('*clip: rect(' + fn.join(' ') + ')'));
+		fn: function (declaration) {
+			if (
+				declaration.has({
+					type: 'Function',
+					name: 'rect'
+				})
+			) {
+				declaration
+					.cloneAfter()
+					.setName('*clip')
+					.getAll({
+						type: 'Function',
+						name: 'rect'
+					})
+					.forEach(function (fn) {
+						fn.replaceWith(stylecow.parse('rect(' + fn.join(' ') + ')', 'Function'));
+					});
 			}
 		}
 	});

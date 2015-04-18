@@ -9,17 +9,18 @@ module.exports = function (stylecow) {
 			type: 'Declaration'
 		},
 		fn: function (declaration) {
-			if (declaration.toString().indexOf('vmin') !== -1) {
-				var clone = declaration.cloneBefore();
-
-				clone.search({
-					type: 'Keyword',
-					name: /([0-9\.]+)vmin/
-				}).forEach(function (keyword) {
-					keyword.name = keyword.name.slice(0, -2);
-				});
-
-				clone.vendor = 'ms';
+			if (declaration.has({
+				type: 'Unit',
+				name: 'vmin'
+			})) {
+				declaration
+					.cloneBefore()
+					.getAll({
+						type: 'Unit',
+						name: 'vmin'
+					}).forEach(function (unit) {
+						unit.name = 'vm';
+					});
 			}
 		}
 	});

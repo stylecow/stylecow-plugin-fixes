@@ -1,0 +1,73 @@
+{
+  "class": "Root",
+  "children": [
+    {
+      "class": "Rule",
+      "children": [
+        {
+          "class": "Selectors",
+          "children": [
+            {
+              "class": "Selector",
+              "children": [
+                {
+                  "class": "TypeSelector",
+                  "name": "div"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "Block",
+          "children": [
+            {
+              "class": "Declaration",
+              "name": "_height",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 30
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "class": "Declaration",
+              "name": "min-height",
+              "vendor": null,
+              "children": [
+                {
+                  "class": "Value",
+                  "children": [
+                    {
+                      "class": "Unit",
+                      "name": "px",
+                      "children": [
+                        {
+                          "class": "Number",
+                          "name": 30
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

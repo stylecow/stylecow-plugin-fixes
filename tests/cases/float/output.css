@@ -1,0 +1,11 @@
+div {
+	float: left;
+	_display: inline;
+}
+div {
+	float: right;
+	_display: inline;
+}
+div {
+	float: none;
+}

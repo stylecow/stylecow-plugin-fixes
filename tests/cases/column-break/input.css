@@ -1,0 +1,5 @@
+div {
+	break-before: column;
+	break-after: column;
+	break-inside: column;
+}
