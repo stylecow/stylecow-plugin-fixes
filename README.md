@@ -1,9 +1,7 @@
-stylecow plugin fixer
-=====================
+# stylecow plugin fixer
 
 Stylecow plugin to fix automatically some browser issues:
 
-* Normalizes calc() function
 * Fix the old syntax of 'clip: rect()' in ie < 8
 * Fix the double margin bug in ie6 on float block elements
 * Adds support for min-height in ie<8
@@ -37,3 +35,5 @@ And stylecow converts to:
     width: 23vmin;
 }
 ```
+
+More demos in [the tests folder](https://github.com/stylecow/stylecow-plugin-fixes/tree/master/tests/cases)
