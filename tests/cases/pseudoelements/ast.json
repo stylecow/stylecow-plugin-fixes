@@ -35,7 +35,7 @@
                   "children": [
                     {
                       "class": "String",
-                      "name": null
+                      "name": ""
                     }
                   ]
                 }
@@ -79,7 +79,7 @@
                   "children": [
                     {
                       "class": "String",
-                      "name": null
+                      "name": ""
                     }
                   ]
                 }
