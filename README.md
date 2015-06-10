@@ -1,4 +1,7 @@
-# stylecow plugin fixer
+stylecow plugin fixer
+=====================
+
+[![Build Status](https://travis-ci.org/stylecow/stylecow-plugin-fixes.svg)](https://travis-ci.org/stylecow/stylecow-plugin-fixes)
 
 Stylecow plugin to fix automatically some browser issues:
 

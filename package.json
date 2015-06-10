@@ -1,20 +1,21 @@
 {
-	"name": "stylecow-plugin-fixes",
-	"description": "Stylecow plugin to fix automatically some css issues.",
-	"version": "4.0.1",
-	"author": "Oscar Otero <oom@oscarotero.com>",
-	"homepage": "https://github.com/stylecow/stylecow-plugin-fixes",
-	"bugs": "https://github.com/stylecow/stylecow-plugin-fixes/issues",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/stylecow/stylecow-plugin-fixes.git"
-	},
-	"scripts": {
-		"test": "mocha tests/cases.js"
-	},
-	"devDependencies": {
-		"stylecow": "6.*"
-	},
-	"main": "index.js",
-	"license": "MIT"
+  "name": "stylecow-plugin-fixes",
+  "description": "Stylecow plugin to fix automatically some css issues.",
+  "version": "4.0.2",
+  "author": "Oscar Otero <oom@oscarotero.com>",
+  "homepage": "https://github.com/stylecow/stylecow-plugin-fixes",
+  "bugs": "https://github.com/stylecow/stylecow-plugin-fixes/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stylecow/stylecow-plugin-fixes.git"
+  },
+  "scripts": {
+    "test": "mocha tests/cases.js"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "stylecow": "6.*"
+  },
+  "main": "index.js",
+  "license": "MIT"
 }
