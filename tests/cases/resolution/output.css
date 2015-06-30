@@ -1,0 +1,15 @@
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	body {
+		color: blue;
+	}
+}
+@media (-webkit-max-device-pixel-ratio: 1.5), (max-resolution: 1.5dppx) {
+	body {
+		color: blue;
+	}
+}
+@media print and (-webkit-min-device-pixel-ratio: 3.12), print and (min-resolution: 299.72dpi) {
+	body {
+		color: white;
+	}
+}

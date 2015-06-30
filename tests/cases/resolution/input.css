@@ -1,0 +1,17 @@
+@media (min-resolution: 192dpi) {
+	body {
+		color: blue;
+	}
+}
+
+@media (max-resolution: 1.5dppx) {
+	body {
+		color: blue;
+	}
+}
+
+@media print and (min-resolution: 118dpcm) {
+	body {
+		color: white;
+	}
+}

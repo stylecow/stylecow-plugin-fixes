@@ -13,6 +13,9 @@ Stylecow plugin to fix automatically some browser issues:
 * Adds support for vmin in ie9
 * Adds support for display:inline-block in ie < 8
 * Adds support for break-before, break-after, break-inside in webkit
+* Add support for `resolution` media query: 
+  * Converts all `ddpx` and `dpcm` units to dpi (for more compatibility)
+  * Converts `min/max-resolution` to `-webkit-min/max-device-pixel-ratio` for webkit
 * etc...
 
 You write:

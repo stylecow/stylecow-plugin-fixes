@@ -7,5 +7,6 @@ module.exports = function (stylecow) {
 	require('./src/min-height')(stylecow);
 	require('./src/opacity')(stylecow);
 	require('./src/pseudoelements')(stylecow);
+	require('./src/resolution')(stylecow);
 	require('./src/vmin')(stylecow);
 };
