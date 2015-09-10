@@ -1,49 +1,51 @@
-module.exports = function (stylecow) {
-	
-	//Adds support in explorer < 9
-	stylecow.addTask({
-		forBrowsersLowerThan: {
-			explorer: 9.0
-		},
-		filter: {
-			type: 'Declaration',
-			name: 'opacity'
-		},
-		fn: function (declaration) {
-			var block = declaration.getParent('Block');
+"use strict";
 
-			if (block) {
-				addMsFilter(block, 'alpha(opacity=' + (parseFloat(declaration[0], 10) * 100) + ')');
-			}
-		}
-	});
+module.exports = function (tasks, stylecow) {
+    
+    //Adds support in explorer < 9
+    tasks.addTask({
+        forBrowsersLowerThan: {
+            explorer: 9.0
+        },
+        filter: {
+            type: 'Declaration',
+            name: 'opacity'
+        },
+        fn: function (declaration) {
+            var block = declaration.getParent('Block');
 
-	function addMsFilter (block, filter) {
-		var declaration = block.getChild({
-				type: 'Declaration',
-				name: 'filter',
-				vendor: 'ms'
-			});
+            if (block) {
+                addMsFilter(block, 'alpha(opacity=' + (parseFloat(declaration[0], 10) * 100) + ')');
+            }
+        }
+    });
 
-		if (!declaration) {
-			return block.push(stylecow.parse('-ms-filter: ' + filter, 'Declaration', 'createMsFilter'));
-		}
+    function addMsFilter (block, filter) {
+        var declaration = block.getChild({
+                type: 'Declaration',
+                name: 'filter',
+                vendor: 'ms'
+            });
 
-		if (declaration.is({string: '-ms-filter: none;'})) {
-			return declaration
-				.get({
-					type: 'Keyword',
-					name: 'none'
-				})
-				.replaceWith((new stylecow.String()).setName(filter));
-		}
+        if (!declaration) {
+            return block.pushCode('-ms-filter: ' + filter, 'Declaration', 'createMsFilter');
+        }
 
-		var string = declaration.get('String');
+        if (declaration.is({string: '-ms-filter: none;'})) {
+            return declaration
+                .get({
+                    type: 'Keyword',
+                    name: 'none'
+                })
+                .replaceWith((new stylecow.String()).setName(filter));
+        }
 
-		if (string.name) {
-			string.name += ',' + filter;
-		} else {
-			string.name = filter;
-		}
-	}
+        var string = declaration.get('String');
+
+        if (string.name) {
+            string.name += ',' + filter;
+        } else {
+            string.name = filter;
+        }
+    }
 };

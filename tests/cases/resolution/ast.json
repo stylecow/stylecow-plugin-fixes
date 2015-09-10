@@ -1,29 +1,29 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Media",
+      "type": "AtRule",
       "name": "media",
       "children": [
         {
-          "class": "MediaQueries",
+          "type": "MediaQueries",
           "children": [
             {
-              "class": "MediaQuery",
+              "type": "MediaQuery",
               "children": [
                 {
-                  "class": "ConditionalExpression",
+                  "type": "ConditionalExpression",
                   "children": [
                     {
-                      "class": "ConditionalFeature",
+                      "type": "ConditionalFeature",
                       "name": "min-device-pixel-ratio",
                       "vendor": "webkit",
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Number",
+                              "type": "Number",
                               "name": 2
                             }
                           ]
@@ -35,25 +35,25 @@
               ]
             },
             {
-              "class": "MediaQuery",
+              "type": "MediaQuery",
               "children": [
                 {
-                  "class": "ConditionalExpression",
+                  "type": "ConditionalExpression",
                   "children": [
                     {
-                      "class": "ConditionalFeature",
+                      "type": "ConditionalFeature",
                       "name": "min-resolution",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "dpi",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 192
                                 }
                               ]
@@ -69,19 +69,19 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Rule",
+              "type": "Rule",
               "children": [
                 {
-                  "class": "Selectors",
+                  "type": "Selectors",
                   "children": [
                     {
-                      "class": "Selector",
+                      "type": "Selector",
                       "children": [
                         {
-                          "class": "TypeSelector",
+                          "type": "TypeSelector",
                           "name": "body"
                         }
                       ]
@@ -89,18 +89,18 @@
                   ]
                 },
                 {
-                  "class": "Block",
+                  "type": "Block",
                   "children": [
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "color",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "blue",
                               "vendor": null
                             }
@@ -117,28 +117,28 @@
       ]
     },
     {
-      "class": "Media",
+      "type": "AtRule",
       "name": "media",
       "children": [
         {
-          "class": "MediaQueries",
+          "type": "MediaQueries",
           "children": [
             {
-              "class": "MediaQuery",
+              "type": "MediaQuery",
               "children": [
                 {
-                  "class": "ConditionalExpression",
+                  "type": "ConditionalExpression",
                   "children": [
                     {
-                      "class": "ConditionalFeature",
+                      "type": "ConditionalFeature",
                       "name": "max-device-pixel-ratio",
                       "vendor": "webkit",
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Number",
+                              "type": "Number",
                               "name": 1.5
                             }
                           ]
@@ -150,25 +150,25 @@
               ]
             },
             {
-              "class": "MediaQuery",
+              "type": "MediaQuery",
               "children": [
                 {
-                  "class": "ConditionalExpression",
+                  "type": "ConditionalExpression",
                   "children": [
                     {
-                      "class": "ConditionalFeature",
+                      "type": "ConditionalFeature",
                       "name": "max-resolution",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "dppx",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 1.5
                                 }
                               ]
@@ -184,19 +184,19 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Rule",
+              "type": "Rule",
               "children": [
                 {
-                  "class": "Selectors",
+                  "type": "Selectors",
                   "children": [
                     {
-                      "class": "Selector",
+                      "type": "Selector",
                       "children": [
                         {
-                          "class": "TypeSelector",
+                          "type": "TypeSelector",
                           "name": "body"
                         }
                       ]
@@ -204,18 +204,18 @@
                   ]
                 },
                 {
-                  "class": "Block",
+                  "type": "Block",
                   "children": [
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "color",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "blue",
                               "vendor": null
                             }
@@ -232,38 +232,38 @@
       ]
     },
     {
-      "class": "Media",
+      "type": "AtRule",
       "name": "media",
       "children": [
         {
-          "class": "MediaQueries",
+          "type": "MediaQueries",
           "children": [
             {
-              "class": "MediaQuery",
+              "type": "MediaQuery",
               "children": [
                 {
-                  "class": "Keyword",
+                  "type": "Keyword",
                   "name": "print",
                   "vendor": null
                 },
                 {
-                  "class": "Keyword",
+                  "type": "Keyword",
                   "name": "and",
                   "vendor": null
                 },
                 {
-                  "class": "ConditionalExpression",
+                  "type": "ConditionalExpression",
                   "children": [
                     {
-                      "class": "ConditionalFeature",
+                      "type": "ConditionalFeature",
                       "name": "min-device-pixel-ratio",
                       "vendor": "webkit",
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Number",
+                              "type": "Number",
                               "name": 3.12
                             }
                           ]
@@ -275,35 +275,35 @@
               ]
             },
             {
-              "class": "MediaQuery",
+              "type": "MediaQuery",
               "children": [
                 {
-                  "class": "Keyword",
+                  "type": "Keyword",
                   "name": "print",
                   "vendor": null
                 },
                 {
-                  "class": "Keyword",
+                  "type": "Keyword",
                   "name": "and",
                   "vendor": null
                 },
                 {
-                  "class": "ConditionalExpression",
+                  "type": "ConditionalExpression",
                   "children": [
                     {
-                      "class": "ConditionalFeature",
+                      "type": "ConditionalFeature",
                       "name": "min-resolution",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Unit",
+                              "type": "Unit",
                               "name": "dpi",
                               "children": [
                                 {
-                                  "class": "Number",
+                                  "type": "Number",
                                   "name": 299.72
                                 }
                               ]
@@ -319,19 +319,19 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Rule",
+              "type": "Rule",
               "children": [
                 {
-                  "class": "Selectors",
+                  "type": "Selectors",
                   "children": [
                     {
-                      "class": "Selector",
+                      "type": "Selector",
                       "children": [
                         {
-                          "class": "TypeSelector",
+                          "type": "TypeSelector",
                           "name": "body"
                         }
                       ]
@@ -339,18 +339,18 @@
                   ]
                 },
                 {
-                  "class": "Block",
+                  "type": "Block",
                   "children": [
                     {
-                      "class": "Declaration",
+                      "type": "Declaration",
                       "name": "color",
                       "vendor": null,
                       "children": [
                         {
-                          "class": "Value",
+                          "type": "Value",
                           "children": [
                             {
-                              "class": "Keyword",
+                              "type": "Keyword",
                               "name": "white",
                               "vendor": null
                             }

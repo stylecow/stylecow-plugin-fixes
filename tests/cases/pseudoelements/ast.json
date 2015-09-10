@@ -1,21 +1,21 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 },
                 {
-                  "class": "PseudoClass",
+                  "type": "PseudoClass",
                   "name": "after"
                 }
               ]
@@ -23,18 +23,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "content",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": ""
                     }
                   ]
@@ -46,20 +46,20 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 },
                 {
-                  "class": "PseudoClass",
+                  "type": "PseudoClass",
                   "name": "before"
                 }
               ]
@@ -67,18 +67,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "content",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": ""
                     }
                   ]
@@ -90,20 +90,20 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 },
                 {
-                  "class": "PseudoClass",
+                  "type": "PseudoClass",
                   "name": "first-line"
                 }
               ]
@@ -111,18 +111,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "font-weight",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "bold",
                       "vendor": null
                     }
@@ -135,20 +135,20 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 },
                 {
-                  "class": "PseudoClass",
+                  "type": "PseudoClass",
                   "name": "first-letter"
                 }
               ]
@@ -156,18 +156,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "font-weight",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "bold",
                       "vendor": null
                     }

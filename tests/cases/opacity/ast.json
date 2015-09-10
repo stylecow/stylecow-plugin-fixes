@@ -1,17 +1,17 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 }
               ]
@@ -19,18 +19,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "opacity",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0.5
                     }
                   ]
@@ -38,15 +38,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "filter",
               "vendor": "ms",
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": "alpha(opacity=50)"
                     }
                   ]
@@ -58,16 +58,16 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 }
               ]
@@ -75,18 +75,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "opacity",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -94,15 +94,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "filter",
               "vendor": "ms",
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": "alpha(opacity=0)"
                     }
                   ]
@@ -114,16 +114,16 @@
       ]
     },
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 }
               ]
@@ -131,18 +131,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "opacity",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 1
                     }
                   ]
@@ -150,15 +150,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "filter",
               "vendor": "ms",
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": "alpha(opacity=100)"
                     }
                   ]

@@ -1,17 +1,17 @@
 {
-  "class": "Root",
+  "type": "Root",
   "children": [
     {
-      "class": "Rule",
+      "type": "Rule",
       "children": [
         {
-          "class": "Selectors",
+          "type": "Selectors",
           "children": [
             {
-              "class": "Selector",
+              "type": "Selector",
               "children": [
                 {
-                  "class": "TypeSelector",
+                  "type": "TypeSelector",
                   "name": "div"
                 }
               ]
@@ -19,18 +19,18 @@
           ]
         },
         {
-          "class": "Block",
+          "type": "Block",
           "children": [
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "animation",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -39,15 +39,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "animation-delay",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -55,15 +55,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "animation-direction",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "normal",
                       "vendor": null
                     }
@@ -72,15 +72,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "animation-duration",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -88,15 +88,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "animation-fill-mode",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -105,15 +105,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "animation-iteration-count",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 1
                     }
                   ]
@@ -121,15 +121,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "animation-name",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -138,15 +138,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "animation-play-state",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "running",
                       "vendor": null
                     }
@@ -155,15 +155,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "animation-timing-function",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "ease",
                       "vendor": null
                     }
@@ -172,15 +172,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "backface-visibility",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "visible",
                       "vendor": null
                     }
@@ -189,15 +189,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "background",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -205,15 +205,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "background-attachment",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "scroll",
                       "vendor": null
                     }
@@ -222,15 +222,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "background-clip",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "border-box",
                       "vendor": null
                     }
@@ -239,15 +239,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "background-color",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "transparent",
                       "vendor": null
                     }
@@ -256,15 +256,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "background-image",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -273,15 +273,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "background-origin",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "padding-box",
                       "vendor": null
                     }
@@ -290,19 +290,19 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "background-position",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     },
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -310,15 +310,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "background-repeat",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "repeat",
                       "vendor": null
                     }
@@ -327,20 +327,20 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "background-size",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     },
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     }
@@ -349,15 +349,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -365,15 +365,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-style",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -382,15 +382,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-width",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "medium",
                       "vendor": null
                     }
@@ -399,15 +399,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-color",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "inherit",
                       "vendor": null
                     }
@@ -416,15 +416,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-bottom",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -432,15 +432,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-bottom-color",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "inherit",
                       "vendor": null
                     }
@@ -449,15 +449,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-bottom-left-radius",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -465,15 +465,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-bottom-right-radius",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -481,15 +481,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-bottom-style",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -498,15 +498,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-bottom-width",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "medium",
                       "vendor": null
                     }
@@ -515,15 +515,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-collapse",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "separate",
                       "vendor": null
                     }
@@ -532,15 +532,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-image",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -549,15 +549,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-left",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -565,15 +565,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-left-color",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "inherit",
                       "vendor": null
                     }
@@ -582,15 +582,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-left-style",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -599,15 +599,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-left-width",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "medium",
                       "vendor": null
                     }
@@ -616,15 +616,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-radius",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -632,15 +632,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-right",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -648,15 +648,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-right-color",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "inherit",
                       "vendor": null
                     }
@@ -665,15 +665,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-right-style",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -682,15 +682,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-right-width",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "medium",
                       "vendor": null
                     }
@@ -699,15 +699,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-spacing",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -715,15 +715,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-top",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -731,15 +731,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-top-color",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "inherit",
                       "vendor": null
                     }
@@ -748,15 +748,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-top-left-radius",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -764,15 +764,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-top-right-radius",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -780,15 +780,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-top-style",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -797,15 +797,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "border-top-width",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "medium",
                       "vendor": null
                     }
@@ -814,15 +814,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "bottom",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     }
@@ -831,15 +831,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "box-shadow",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -848,15 +848,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "box-sizing",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "content-box",
                       "vendor": null
                     }
@@ -865,15 +865,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "caption-side",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "top",
                       "vendor": null
                     }
@@ -882,15 +882,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "clear",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -899,15 +899,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "clip",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     }
@@ -916,15 +916,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "color",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "inherit",
                       "vendor": null
                     }
@@ -933,15 +933,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "columns",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     }
@@ -950,15 +950,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "column-count",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     }
@@ -967,15 +967,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "column-fill",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "balance",
                       "vendor": null
                     }
@@ -984,15 +984,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "column-gap",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "normal",
                       "vendor": null
                     }
@@ -1001,25 +1001,25 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "column-rule",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "medium",
                       "vendor": null
                     },
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     },
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "currentColor",
                       "vendor": null
                     }
@@ -1028,15 +1028,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "column-rule-color",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "currentColor",
                       "vendor": null
                     }
@@ -1045,15 +1045,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "column-rule-style",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -1062,15 +1062,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "column-rule-width",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -1079,15 +1079,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "column-span",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 1
                     }
                   ]
@@ -1095,15 +1095,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "column-width",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     }
@@ -1112,15 +1112,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "content",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "normal",
                       "vendor": null
                     }
@@ -1129,15 +1129,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "counter-increment",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -1146,15 +1146,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "counter-reset",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -1163,15 +1163,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "cursor",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     }
@@ -1180,15 +1180,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "direction",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "ltr",
                       "vendor": null
                     }
@@ -1197,15 +1197,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "display",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "inline",
                       "vendor": null
                     }
@@ -1214,15 +1214,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "empty-cells",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "show",
                       "vendor": null
                     }
@@ -1231,15 +1231,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "float",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -1248,15 +1248,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "font",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "normal",
                       "vendor": null
                     }
@@ -1265,15 +1265,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "font-family",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "inherit",
                       "vendor": null
                     }
@@ -1282,15 +1282,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "font-size",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "medium",
                       "vendor": null
                     }
@@ -1299,15 +1299,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "font-style",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "normal",
                       "vendor": null
                     }
@@ -1316,15 +1316,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "font-variant",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "normal",
                       "vendor": null
                     }
@@ -1333,15 +1333,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "font-weight",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "normal",
                       "vendor": null
                     }
@@ -1350,15 +1350,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "height",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     }
@@ -1367,15 +1367,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "hyphens",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -1384,15 +1384,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "left",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     }
@@ -1401,15 +1401,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "letter-spacing",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "normal",
                       "vendor": null
                     }
@@ -1418,15 +1418,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "line-height",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "normal",
                       "vendor": null
                     }
@@ -1435,15 +1435,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "list-style",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -1452,15 +1452,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "list-style-image",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -1469,15 +1469,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "list-style-position",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "outside",
                       "vendor": null
                     }
@@ -1486,15 +1486,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "list-style-type",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "disc",
                       "vendor": null
                     }
@@ -1503,15 +1503,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "margin",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -1519,15 +1519,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "margin-bottom",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -1535,15 +1535,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "margin-left",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -1551,15 +1551,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "margin-right",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -1567,15 +1567,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "margin-top",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -1583,15 +1583,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "max-height",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -1600,15 +1600,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "max-width",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -1617,15 +1617,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "_height",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -1633,15 +1633,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "min-height",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -1649,15 +1649,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "min-width",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -1665,15 +1665,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "opacity",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 1
                     }
                   ]
@@ -1681,15 +1681,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "orphans",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -1697,15 +1697,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "outline",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -1713,15 +1713,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "outline-color",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "invert",
                       "vendor": null
                     }
@@ -1730,15 +1730,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "outline-style",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -1747,15 +1747,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "outline-width",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "medium",
                       "vendor": null
                     }
@@ -1764,15 +1764,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "overflow",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "visible",
                       "vendor": null
                     }
@@ -1781,15 +1781,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "padding",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -1797,15 +1797,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "padding-bottom",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -1813,15 +1813,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "padding-left",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -1829,15 +1829,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "padding-right",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -1845,15 +1845,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "padding-top",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -1861,15 +1861,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "page-break-after",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     }
@@ -1878,15 +1878,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "page-break-before",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     }
@@ -1895,15 +1895,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "page-break-inside",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     }
@@ -1912,15 +1912,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "perspective",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -1929,29 +1929,29 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "perspective-origin",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "%",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 50
                         }
                       ]
                     },
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "%",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 50
                         }
                       ]
@@ -1961,15 +1961,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "position",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "static",
                       "vendor": null
                     }
@@ -1978,15 +1978,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "right",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     }
@@ -1995,15 +1995,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "tab-size",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 8
                     }
                   ]
@@ -2011,15 +2011,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "table-layout",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     }
@@ -2028,15 +2028,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "text-align",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "inherit",
                       "vendor": null
                     }
@@ -2045,15 +2045,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "text-align-last",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     }
@@ -2062,15 +2062,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "text-decoration",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -2079,15 +2079,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "text-decoration-color",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "inherit",
                       "vendor": null
                     }
@@ -2096,15 +2096,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "text-decoration-line",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -2113,15 +2113,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "text-decoration-style",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "solid",
                       "vendor": null
                     }
@@ -2130,15 +2130,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "text-indent",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -2146,15 +2146,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "text-shadow",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -2163,15 +2163,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "text-transform",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -2180,15 +2180,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "top",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     }
@@ -2197,15 +2197,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "transform",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -2214,15 +2214,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "transform-style",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "flat",
                       "vendor": null
                     }
@@ -2231,15 +2231,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "transition",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -2248,19 +2248,19 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "transition-delay",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "s",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 0
                         }
                       ]
@@ -2270,19 +2270,19 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "transition-duration",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Unit",
+                      "type": "Unit",
                       "name": "s",
                       "children": [
                         {
-                          "class": "Number",
+                          "type": "Number",
                           "name": 0
                         }
                       ]
@@ -2292,15 +2292,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "transition-property",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "none",
                       "vendor": null
                     }
@@ -2309,15 +2309,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "transition-timing-function",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "ease",
                       "vendor": null
                     }
@@ -2326,15 +2326,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "unicode-bidi",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "normal",
                       "vendor": null
                     }
@@ -2343,15 +2343,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "vertical-align",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "baseline",
                       "vendor": null
                     }
@@ -2360,15 +2360,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "visibility",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "visible",
                       "vendor": null
                     }
@@ -2377,15 +2377,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "white-space",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "normal",
                       "vendor": null
                     }
@@ -2394,15 +2394,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "widows",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Number",
+                      "type": "Number",
                       "name": 0
                     }
                   ]
@@ -2410,15 +2410,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "width",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     }
@@ -2427,15 +2427,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "word-spacing",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "normal",
                       "vendor": null
                     }
@@ -2444,15 +2444,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "z-index",
               "vendor": null,
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "Keyword",
+                      "type": "Keyword",
                       "name": "auto",
                       "vendor": null
                     }
@@ -2461,15 +2461,15 @@
               ]
             },
             {
-              "class": "Declaration",
+              "type": "Declaration",
               "name": "filter",
               "vendor": "ms",
               "children": [
                 {
-                  "class": "Value",
+                  "type": "Value",
                   "children": [
                     {
-                      "class": "String",
+                      "type": "String",
                       "name": "alpha(opacity=100)"
                     }
                   ]

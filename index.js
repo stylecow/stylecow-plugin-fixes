@@ -1,12 +1,12 @@
-module.exports = function (stylecow) {
-	require('./src/clip')(stylecow);
-	require('./src/column-break')(stylecow);
-	require('./src/float')(stylecow);
-	require('./src/initial')(stylecow);
-	require('./src/inline-block')(stylecow);
-	require('./src/min-height')(stylecow);
-	require('./src/opacity')(stylecow);
-	require('./src/pseudoelements')(stylecow);
-	require('./src/resolution')(stylecow);
-	require('./src/vmin')(stylecow);
+module.exports = function (tasks) {
+    tasks.use(require('./src/clip'));
+    tasks.use(require('./src/column-break'));
+    tasks.use(require('./src/float'));
+    tasks.use(require('./src/initial'));
+    tasks.use(require('./src/inline-block'));
+    tasks.use(require('./src/min-height'));
+    tasks.use(require('./src/opacity'));
+    tasks.use(require('./src/pseudoelements'));
+    tasks.use(require('./src/resolution'));
+    tasks.use(require('./src/vmin'));
 };
