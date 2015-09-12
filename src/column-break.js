@@ -12,6 +12,7 @@ module.exports = function (tasks) {
         },
         filter: {
             type: 'Declaration',
+            name: ['break-before', 'break-after', 'break-inside'],
             string: [
                 'break-before: column;',
                 'break-after: column;',

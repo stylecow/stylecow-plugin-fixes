@@ -1,0 +1,15 @@
+.foo {
+  color: red;
+}
+
+@charset "Shift_JIS";
+
+.bar {
+  color: green;
+}
+
+@charset "Shift_JIS";
+
+.baz {
+  color: blue;
+}

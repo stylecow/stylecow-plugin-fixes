@@ -1,6 +1,7 @@
 module.exports = function (tasks) {
     tasks.use(require('./src/clip'));
     tasks.use(require('./src/column-break'));
+    tasks.use(require('./src/charset'));
     tasks.use(require('./src/float'));
     tasks.use(require('./src/initial'));
     tasks.use(require('./src/inline-block'));
