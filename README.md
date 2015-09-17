@@ -16,6 +16,7 @@ Stylecow plugin to fix automatically some browser issues:
 * Add support for `resolution` media query: 
   * Converts all `ddpx` and `dpcm` units to dpi (for more compatibility)
   * Converts `min/max-resolution` to `-webkit-min/max-device-pixel-ratio` for webkit
+* Fix multiple @charset at-rules
 * etc...
 
 You write:
