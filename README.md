@@ -17,6 +17,7 @@ Stylecow plugin to fix automatically some browser issues:
   * Converts all `ddpx` and `dpcm` units to dpi (for more compatibility)
   * Converts `min/max-resolution` to `-webkit-min/max-device-pixel-ratio` for webkit
 * Fix multiple @charset at-rules
+* Fix @import position that must be on top of the css (only preceded by @charset)
 * etc...
 
 You write:
