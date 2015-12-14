@@ -1,4 +1,5 @@
 module.exports = function (tasks) {
+    tasks.use(require('./src/import'));
     tasks.use(require('./src/clip'));
     tasks.use(require('./src/column-break'));
     tasks.use(require('./src/charset'));

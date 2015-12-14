@@ -1,0 +1,16 @@
+@charset "utf-8";
+.foo {
+  color: red;
+}
+
+@import "styles1.css";
+
+.bar {
+  color: green;
+}
+
+@import "styles2.css";
+
+.baz {
+  color: blue;
+}
