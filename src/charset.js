@@ -5,7 +5,7 @@ module.exports = function (tasks) {
     //Fix multiple @charset
     tasks.addTask({
         fn: function (root) {
-            var charsets = root.getAll({
+            let charsets = root.getAll({
                 type: 'AtRule',
                 name: 'charset'
             });

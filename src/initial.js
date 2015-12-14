@@ -159,7 +159,7 @@ module.exports = function (tasks) {
             name: 'initial'
         },
         fn: function (keyword) {
-            var declaration = keyword.getAncestor('Declaration');
+            let declaration = keyword.getAncestor('Declaration');
 
             if (declaration && initials[declaration.name]) {
                 declaration.replaceWithCode(declaration.name + ':' + initials[declaration.name], 'Declaration');

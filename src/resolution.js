@@ -16,7 +16,7 @@ module.exports = function (tasks) {
             name: ['resolution', 'min-resolution', 'max-resolution']
         },
         fn: function (conditionalFeature) {
-            var query = conditionalFeature.getAncestor('MediaQuery');
+            let query = conditionalFeature.getAncestor('MediaQuery');
 
             if (query) {
                 query.
@@ -43,7 +43,7 @@ module.exports = function (tasks) {
                         }
 
                         //change unit
-                        var unit = feature.get('Unit');
+                        let unit = feature.get('Unit');
 
                         if (unit) {
                             let number = unit.get('Number');
@@ -68,7 +68,7 @@ module.exports = function (tasks) {
             name: ['ddpx', 'dpcm']
         },
         fn: function (unit) {
-            var number = unit.get('Number');
+            let number = unit.get('Number');
 
             if (unit.name === 'dppx') {
                 number.name = number.name * 96;

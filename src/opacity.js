@@ -12,7 +12,7 @@ module.exports = function (tasks, stylecow) {
             name: 'opacity'
         },
         fn: function (declaration) {
-            var block = declaration.getParent('Block');
+            let block = declaration.getParent('Block');
 
             if (block) {
                 addMsFilter(block, 'alpha(opacity=' + (parseFloat(declaration[0], 10) * 100) + ')');
@@ -21,7 +21,7 @@ module.exports = function (tasks, stylecow) {
     });
 
     function addMsFilter (block, filter) {
-        var declaration = block.getChild({
+        let declaration = block.getChild({
                 type: 'Declaration',
                 name: 'filter',
                 vendor: 'ms'
@@ -40,7 +40,7 @@ module.exports = function (tasks, stylecow) {
                 .replaceWith((new stylecow.String()).setName(filter));
         }
 
-        var string = declaration.get('String');
+        let string = declaration.get('String');
 
         if (string.name) {
             string.name += ',' + filter;
